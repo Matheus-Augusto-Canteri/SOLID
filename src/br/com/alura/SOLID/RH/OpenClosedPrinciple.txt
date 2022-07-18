@@ -1,0 +1,1 @@
+Conceito - "Entidade de software (classes, módulom, funções, etc.) devem estar abertas para extensão, porém, fechadas para modificação" -- Bertrand Meyer

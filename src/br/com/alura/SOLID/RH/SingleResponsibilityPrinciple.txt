@@ -1,0 +1,3 @@
+"Uma classe devertia ter apenas um unico motivo para mudar" -- Robert (Uncle Bob) Martin
+Manter coesão
+Conceito: Ao extrair uma nova classe, vimos que agora temos classes com menos responsabilidades, o que facilita na manutenção.

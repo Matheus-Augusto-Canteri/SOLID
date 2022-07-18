@@ -1,0 +1,2 @@
+"Se q(x) ' – , a função q(x) – ' é uma propriedade demonstrável dos objetos x do tipo T, então q(y) ' - que é um outro objeto – ' deve ser verdadeiro para objetos Y do tipo S, se S for um subtipo de T" -- Barbara Liskov
+"Se parece com pato, se faz 'quack' igual um pato, mas precisa de baterias, então não é um pato, você está usando uma abstração errada". Então é justamente um pato de borracha, ele não é um pato de verdade, ele precisa de pilha ou algo do gênero para funcionar.

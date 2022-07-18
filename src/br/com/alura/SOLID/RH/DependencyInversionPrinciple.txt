@@ -1,0 +1,3 @@
+"Abstrações não devem depender de implementçaões. Implementações devem depender de abstrações" == Robert (Uncle Bob) Martin
+
+Se um método muda a forma como realiza sua tarefa, desde que a interface se mantenha, não vamos precisar nos preocupar nem em editar o nosso código.

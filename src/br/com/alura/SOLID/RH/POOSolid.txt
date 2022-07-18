@@ -1,0 +1,46 @@
+- Coesão
+"União harmônica entre uma coisa e outra" - Harmonia de elementos"
+"Classes não coesas tendem a crescer indefinidamente, o que as tornam difíceis de manter"
+Ex: 
+public class Funcionario {
+
+	private String nome;
+	private String cpf;
+	private Cargo cargo;
+	private BigDecimal salario;
+
+    public boolean isGerente(){
+        return Cargo.GERENTE == this.Cargo
+    }
+}
+
+- Encapsulamento
+"Incluir ou proteger alguma coisa em uma cápsula"
+"Classes não encapsuladas permitem violação de regras de negócio, além de aumentarem o acoplamento"
+Ex:
+public class Funcionario {
+
+    private String nome;
+	private String cpf;
+	private Cargo cargo;
+
+    // double apenas para fins didaticos
+    private double salario;
+
+    public void reajustarSalario(double aumento){
+        double percentualReajuste = (aumento / salario) * 100;
+
+        if (percentualReajuste > 40){
+            throw new IllegalArgumentException("Percentual de reajuste deve ser inferior a 40%");
+        }
+
+        this.salario += aumento;
+    }
+}
+
+- Acoplamento
+"Ação de acoplar, agrupando aos pares"
+"Classes acopladas causam fragilidade no código da aplicação, oque dificulta sua manutenção"
+Ex:
+Funcionario funcionario = carregarDoBancoDeDados();
+double reajustes = funcionar.getValorTotalRecebidoEmReajustes();

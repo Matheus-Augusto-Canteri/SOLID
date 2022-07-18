@@ -1,0 +1,3 @@
+"Uma classe não deveria ser forçada a depender de métodos que não utilizará"
+
+Esse princípio diz que às vezes nós vamos ser obrigados a implementar uma interface que não faz sentido para nós. Então aqui temos essa figura, temos esse equipamento. Parece um equipamento que vai ligar uma bomba ou algo do gênero e temos um plug para encaixar. Se precisarmos encaixar esse plug, em qual das entradas nós encaixamos? Tem 4 entradas, será que qualquer uma?
